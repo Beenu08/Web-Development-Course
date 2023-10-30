@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            My Website
+        </title>
+    </head>
+    <h3>
+        <h1>Beenu's Portfolio</h1>
+        <h2>I'm a Web Developer</h2>
+        <hr/>
+        <h3><a href="4_P1_movieRanking.html">Movie Ranking Project</a></h3>
+        <img src="MovieRanking.png" height="200"> 
+        <h3><a href="9_P2_birthdayInvite.html"> Birthday Invite Project</a></h3>
+        <img src="B'dayInvite.png"> 
+        <hr/>
+        <a href="">About Me</a>
+        <a href="">Contact Me</a>
+    </body>
+</html>
