@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="2_style18_selector.css"/>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>Applying CSS to Different Parts of HTML</h2>
+    <p class="note">1. The element selector targets elements based on their HTML tag name.</p>
+    <ol >
+        <li class ="note" value="2">Class Selectors target elements based on the value of the class attribute. </li>
+        <li class ="note" id="id-selector-demo" value="3"> ID selectors target elements based on the value of the id.</li>
+        <li class ="note" value="4">Attribute Selectors target elelments based ont their attributes and values.</li>
+        <li class ="note" value="5">The unoiversal selector selector targets all elements.</li>
+
+    </ol>
+    
+</body>
+</html>
+
+/*CSS FILE*/
+
+
+ol{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+p{
+    color:red;
+}
+
+.note{
+    font-size:  20px;
+}
+
+#id-selector-demo{
+    color:green;
+}
+
+li[value="4"]{
+    color:blue;
+}
+
+*{
+    text-align: center;
+}
